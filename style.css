@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    color: white;
+    font-size: 1.2rem;
+    
+}
+.navbar{
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(240, 240, 134);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(7,45,145,1) 34%, rgba(7,53,150,1) 49%, rgba(131,23,176,1) 61%, rgba(130,30,165,1) 75%, rgba(132,7,200,1) 84%, rgba(168,30,220,1) 88%, rgba(137,125,219,1) 100%);
+}
+.info a{
+   
+    color: white;
+    font-size: 1.8rem;
+    text-decoration-line: none;
+    padding-right: 2rem;
+}
+.box1{
+border: 0.2px solid black;
+width: 40rem;
+
+padding: 20px;
+box-shadow:  20px 20px 100px black;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(228,191,112,1) 100%);
+}
+.box{
+    
+}
+img{
+    float: right;
+    
+    height: 13rem;
+    width: 10rem;
+    padding: 25pxpx;
+    border-radius: 10%;
+    
+}
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+    box-shadow:  0.5px 0.5px 20px 10px rgb(48, 0, 83);
+}
+h3{
+    text-decoration:underline;
+}
